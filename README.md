@@ -23,7 +23,12 @@ Since the original diffusion model is for continuous modeling and the text-gener
 
 Compared to the random Gaussian embeddings or the pre-trained word embeddings, end-to-end training in [7] is the optimal. We add the text next to the $x_0$ state. In the forward pass, the transition function is $q(x_0|Text) = \mathcal{N}(Embedding(Text), \sigma_0 I )$. In the reverse pass, we add the trainable rounding step, parameterized by $p_{\theta}(Text|x_0) = \prod\limits_{i=1}^{n} p_{\theta}(Text_i|x_i)$, where the last term is the softmax distribution. 
 
+![bert](/images/BERT.png)
+![electra](/images/Electra.png)
+
 ### Result
+
+
 
 
 
