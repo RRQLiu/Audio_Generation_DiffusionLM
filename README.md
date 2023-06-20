@@ -36,6 +36,16 @@ Compared to the random Gaussian embeddings or the pre-trained word embeddings, e
 ![wave2](images/9-midi-waveform.png)
 
 
+### Instruction for Running 
+
+Diffusion LM using Electra-bert : electra.py 
+
+Diffusion LM using Bert: bert.py 
+
+Suggested Running environment : Google Colab 
+
+
+
 
 
 
