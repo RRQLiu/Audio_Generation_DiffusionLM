@@ -26,7 +26,16 @@ Compared to the random Gaussian embeddings or the pre-trained word embeddings, e
 ![bert](/images/BERT.png)
 ![electra](/images/Electra.png)
 
-### Result
+### Result Table
+
+![result](/images/result.png)
+
+### Generated Waveform
+
+![wave1](images/8-midi-waveform.png) 
+![wave2](images/9-midi-waveform.png)
+
+
 
 
 
